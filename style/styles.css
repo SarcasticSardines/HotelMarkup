@@ -114,12 +114,27 @@
     font-family: Source Sans Pro Regular;
     color: #1A1B26;
     font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.flexing {
+    margin: 0px;
+}
+.noBorder {
+    border: 0px;
+    height: 530px;
+    width: 369px;
+}
+.extraroom {
+    height: 535px;
 }
 .spaceUnder {
-    margin: 70px;
+    margin-right: 15px;
+    margin-top: 90px;
 }
 .beachBtn {
-    margin-left: 70px;
+    margin-left: 15px;
+    margin: 10px;
 }
 .reserveBtnColor {
     background-color: #004CC7;
@@ -167,4 +182,44 @@
 }
 .footerBG {
     background-color: #000324;
+}
+
+
+@media screen and (max-width: 950px){
+    .awardSpace{
+        margin-left: 0px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    .bg1Img {
+        background-size: cover;
+        height: 1110px;
+    }
+    .cardFillText {
+        font-size: 14px;
+        margin-top: -1px;
+        margin-bottom: -1px;
+        margin-left: -20px;
+    }
+    .noBorder{
+        height: 400px;
+        width: 295px;
+        margin-top: 20px;
+    }
+    .extraroom {
+        height: 455px;
+    }
+    .flexing {
+      margin-left: 30%;
+      margin-top: 20px;
+    }
+    .spaceUnder {
+        margin-right: 15px;
+        margin-top: 0px;
+    }
+    .beachBtn {
+        margin-left: 15px;
+        margin-top: -4px;
+    }
+   
 }
