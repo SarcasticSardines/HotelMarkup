@@ -146,6 +146,7 @@
 }
 .packageSpace {
     margin: 100px;
+    margin-left: 13%;
 }
 .pckgSubHtxt {
     color: #1A1B26;
@@ -164,6 +165,9 @@
     margin: 0px;
     padding: 0px;
 }
+.mediumSpace {
+    margin: 1px;
+}
 .iconTxt {
     color: white;
     font-family: Source Sans Pro Regular;
@@ -179,6 +183,9 @@
     font-size: 20px;
     font-weight: bold;
     text-wrap: nowrap;
+}
+.mediumMarg {
+    height: 45px;
 }
 .footerBG {
     background-color: #000324;
@@ -221,5 +228,10 @@
         margin-left: 15px;
         margin-top: -4px;
     }
-   
+   .mediumSpace {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+   }
 }
