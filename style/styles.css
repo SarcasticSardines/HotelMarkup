@@ -30,6 +30,8 @@
 .reserveBox {
     border: 1px solid;
     border-color: #E5FEFF;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .headerImg {
    background-image: url(../assets/header.jpg);
@@ -105,9 +107,20 @@
     display: flex;
     justify-content: end;
 }
+.roomHeaderspace {
+    margin-top: 50px;
+}
 .queenRoom {
     display: flex;
     justify-content: end;
+}
+.kingRoom {
+    display: flex;
+    justify-content: center;
+}
+.beachRoom {
+    display: flex;
+    justify-content: start;
 }
 .cardHeaderText {
     font-family: Dosis;
@@ -156,6 +169,10 @@
     margin: 100px;
     margin-left: 13%;
 }
+.packageHead {
+    margin-bottom: 30px;
+    text-align: center;
+}
 .pckgSubHtxt {
     color: #1A1B26;
     font-family: Dosis;
@@ -173,8 +190,28 @@
     margin: 0px;
     padding: 0px;
 }
+.space5 {
+    margin-left: -75px;
+}
+.space4 {
+    margin-left: 90px;
+}
+.imgShift {
+    display: flex;
+}
+.textShift {
+    text-align: start;
+}
+.centerRow {
+    display: flex;
+    justify-content: end;
+}
 .mediumSpace {
     margin: 1px;
+}
+.amenSpace {
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .iconTxt {
     color: white;
@@ -182,6 +219,14 @@
     font-size: 20px;
     text-align: center;
     position: absolute;
+}
+.absoluteIcon {
+    display: flex;
+    justify-content: space-between;
+}
+.relativeWords {
+    display: flex;
+    justify-content: space-between;
 }
 .gimmeSpace {
     margin: 100px;
@@ -192,17 +237,55 @@
 .reserveColors {
     background-color: #000324;
 }
+.smallOpts {
+    margin-left: 2px;
+}
+.checkIn {
+    display: flex;
+    justify-content: start;
+}
+.checkOut {
+    display: flex;
+    justify-content: start;
+}
+.guestNum {
+    display: flex;
+    justify-content: start;
+}
+.roomChoice {
+    display: flex;
+    justify-content: start;
+}
 .buttonTxt {
     font-family: Source Sans Pro Regular;
     font-size: 20px;
     font-weight: bold;
     text-wrap: nowrap;
 }
+.availableBtn {
+    display: flex;
+    justify-content: start;
+}
 .mediumMarg {
     height: 45px;
 }
+.lastHamster {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 70%;
+}
 .footerBG {
     background-color: #000324;
+}
+.footSpace {
+   margin-top: 15px;
+}
+.ignoreMe {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    height: 15px;
 }
 
 
@@ -214,11 +297,20 @@
     }
     .firstCenter {
         display: flex;
-        justify-content: center;
+        justify-content: start;
     }
     .bg1Img {
         background-size: cover;
         height: 1110px;
+    }
+    .queenRoom {
+        justify-content: center;
+    }
+    .kingRoom {
+        justify-content: center;
+    }
+    .beachRoom {
+        justify-content: center;
     }
     .cardFillText {
         font-size: 14px;
@@ -252,9 +344,25 @@
     margin-left: 15px;
     margin-right: 15px;
    }
+   .amenSpace {
+    margin-bottom: 40px;
+   }
+   .absoluteIcon {
+    justify-content: center;
+   }
+   .formatTxt {
+    margin-top: 50px;
+   }
+   .relativeWords {
+    justify-content: space-between;
+   }
 }
 
 @media screen and (max-width: 540px) {
+    .reserveBox {
+       margin-right: 80px;
+       margin-left: 4px;
+    }
     .headerImg {
         display: flex;
         justify-content: center;
@@ -262,6 +370,79 @@
     .bg1Img {
         background-size: cover;
         height: 1575px;
-        width: 800px;
+        width: 100%;
+    }
+    .bg2Img {
+        background-size: cover;
+        height: 900px;
+    }
+    .lightStxt {
+        font-size: 14px;
+    }
+    .lightNCfilltxt {
+        font-size: 14px;
+    }
+    .packageHead {
+        text-align: start;
+    }
+    .space5 {
+        padding: 10px;
+        padding-right: 40px;
+    }
+    .space4 {
+        padding: 10px;
+        padding-right: 40px;
+    }
+    .imgShift {
+        display: flex;
+        justify-content: start;
+        margin-right: 9%;
+    }
+    .textShift {
+        text-align: start;
+        padding-right: 50px;
+    }
+    .roomHeaderspace {
+        margin-top: 50px;
+        display: flex;
+        justify-content: start;
+    }
+    .queenRoom {
+        justify-content: start;
+    }
+    .kingRoom {
+        justify-content: start;
+    }
+    .beachRoom {
+        justify-content: start;
+    }
+    .flexing {
+        margin: 0px;
+    }
+    .amenSpace {
+        margin-bottom: 20px;
+    }
+    .availableBtn {
+        justify-content: center;
+        margin: 10px;
+    }
+    .absoluteIcon {
+        margin-top: 10%;
+    }
+    .relativeWords {
+       opacity: 0;
+    }
+    .lastHamster {
+        height: 375px;
+        width: 100%;
+        object-fit: cover;
+        object-position: 15% 70%;
+    }
+    .availableBtn {
+        display: flex;
+        justify-content: center;
+    }
+    .smallOpts {
+        margin-left: 5%;
     }
 }
